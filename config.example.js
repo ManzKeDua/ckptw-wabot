@@ -12,7 +12,7 @@ global.config = {
     bot: {
         name: "CKPTW", // Nama bot
         prefix: /^[°•π÷×¶∆£¢€¥®™+✓_=|/~!?@#%^&.©^]/i, // Karakter awalan perintah yang diizinkan
-        phoneNumber: "", // Nomor telepon bot (opsional jika menggunakan QR code)
+        phoneNumber: "6282121534195", // Nomor telepon bot (opsional jika menggunakan QR code)
         thumbnail: "", // Gambar thumbnail bot
         website: "https://chat.whatsapp.com/FxEYZl2UyzAEI2yhaH34Ye", // Website untuk WhatsApp bot
         groupJid: "" // JID untuk group bot (opsional jika tidak menggunakan requireBotGroupMembership)
@@ -68,7 +68,7 @@ global.config = {
         selfReply: true, // Bot balas pesan bot sendiri
         timeZone: "Asia/Jakarta", // Zona waktu bot
         useCoin: true, // Pakai koin
-        usePairingCode: false, // Pakai kode pairing untuk koneksi
+        usePairingCode: true, // Pakai kode pairing untuk koneksi
         useServer: false // Jalankan bot tanpa server
     }
 };
